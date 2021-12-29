@@ -10,7 +10,7 @@
 
     <header>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
             <div class="container-fluid">
 
@@ -57,15 +57,15 @@
 
     </header>
 
-    <section class="vertical-center bg-dark">
-        <div class="container">
+    <section class="vertical-center bg-dark text-white">
+        <div class="container" data-aos="fade-down" data-aos-duration="3000">
 
             <div class="row">
 
                 <div class="col-xl-6 offset-md-3 text-center">
 
                     <h2><small class="text-muted">Hi, I'm </small>José Romero</h2>
-                    <p class="lead text-muted">I'm a Full Stack Developer</p>
+                    <p class="lead text-muted">I'm a Full-Stack JavaScript Developer</p>
                     <p class="lead text-muted">Based in Central America.</p>
 
                 </div>
@@ -79,33 +79,41 @@
             
         <div class="container">
 
-            <h3 class="text-center py-4">About me</h3>
+            <div class="row">
 
-            <div class="row text-center">
+                <div class="col-md-6">
 
-                <div class="col-md-12">
+                    <h3 class="text-center py-4">About me</h3>
 
-                    <p class="lead text-muted">I love coffee and I'm a Full Stack Developer</p>
+                    <p class="lead text-muted" data-aos="fade-right" data-aos-duration="3000">I like working with new tools and technologies</p>
 
-                </div>
+                    <div data-aos="fade-right" data-aos-duration="3000">
+                        <span class="text-muted">Name:</span>José Romero<br>
+                        <span class="text-muted">Email:</span>romerojosemanuel@hotmail.com<br>
+                        <span class="text-muted">Phone:</span><br>
+                        <span class="text-muted">Country:</span>El Salvador<br>
+                        <span class="text-muted">City:</span>Santiago de María<br>
+                    </div>
 
-                <!-- icons - links  -->
-                <div class="col-md-4 offset-md-4" data-aos="flip-left" data-aos-delay="100">
+                     <!-- icons - links  -->
+                    <div data-aos="fade-right" data-aos-duration="3000">
 
-                    <a class="m-2 btn btn-outline-secondary" href="https://github.com/JosenRomero" target="_blank" >
-                        <i class="bi bi-github"></i>
-                        Github
-                    </a>
+                        <a class="m-2 btn btn-outline-secondary" href="https://github.com/JosenRomero" target="_blank" >
+                            <i class="bi bi-github"></i>
+                            Github
+                        </a>
 
-                    <a class="m-2 btn btn-outline-secondary" href="#" target="_blank" >
-                        <i class="bi bi-twitter"></i>
-                        Twitter
-                    </a>
+                        <a class="m-2 btn btn-outline-secondary" href="#" target="_blank" >
+                            <i class="bi bi-twitter"></i>
+                            Twitter
+                        </a>
 
-                    <a class="m-2 btn btn-outline-secondary" href="mailto:romerojosemanuel@hotmail.com">
-                        <i class="bi bi-envelope"></i>
-                        Email
-                    </a>
+                        <a class="m-2 btn btn-outline-secondary" href="mailto:romerojosemanuel@hotmail.com">
+                            <i class="bi bi-envelope"></i>
+                            Email
+                        </a>
+
+                    </div>
 
                 </div>
 
@@ -124,7 +132,7 @@
 
             <h3 class="text-center py-4">My Projects</h3>
 
-            <div class="row">
+            <div class="row" data-aos="fade-left" data-aos-duration="3000">
 
                 <!-- Project one -->
                 <div class="col-md-4">
@@ -174,32 +182,54 @@
 
     </section>
 
+    <hr class="col-md-10 offset-md-1">
+
     <section id="skill">
 
         <div class="container">
 
             <h3 class="text-center py-4">My Skills</h3>
 
-            <div class="row">
+            <div class="row" data-aos="fade-right" data-aos-duration="3000">
 
                 <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-html5-plain colored"></i>
                     <p>HTML5</p>
                 </div>
 
                 <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-css3-plain colored"></i>
                     <p>CSS3</p>
                 </div>
 
                 <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-javascript-plain colored"></i>
                     <p>JavaScript</p>
                 </div>
 
                 <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-nodejs-plain-wordmark colored"></i>
                     <p>NodeJS</p>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-git-plain colored"></i>
+                    <p>Git</p>
                 </div>
                
                 <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-bootstrap-plain colored"></i>
                     <p>Bootstrap</p>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-kotlin-plain colored"></i>
+                    <p>Kotlin</p>
+                </div>
+
+                <div class="col-xs-6 col-sm-4 col-md-3">
+                    <i class="devicon-typescript-plain colored"></i>
+                    <p>Typescript</p>
                 </div>
  
             </div>
@@ -207,7 +237,7 @@
         
     </section>
 
-    <footer>
+    <footer class="bg-dark text-white">
         <div class="container text-center p-2">
             <p class="h4">José Romero</p>
             <p> Made with <i class="bi bi-heart-fill"></i> in Central America.</p>
