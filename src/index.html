@@ -25,7 +25,7 @@
                 <!-- Navbar Links -->
                 <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ms-auto">
 
                         <li class="nav-item">
                             <a class="nav-link" href="/" >Home</a>
@@ -43,10 +43,6 @@
                             <a class="nav-link" href="/#skill">Skill</a>
                         </li>
                     
-                        <li class="nav-item">
-                            <a class="nav-link" href="/#contact">Contact</a>
-                        </li>
-
                     </ul>
                                 
                 </div>
@@ -62,7 +58,7 @@
 
             <div class="row">
 
-                <div class="col-xl-6 offset-md-3 text-center">
+                <div class="col-12 text-center">
 
                     <h2><small class="text-muted">Hi, I'm </small>José Romero</h2>
                     <p class="lead text-muted">I'm a Full-Stack JavaScript Developer</p>
@@ -81,16 +77,21 @@
 
             <div class="row">
 
-                <div class="col-md-6">
+                <h3 class="text-center py-4">About me</h3>
 
-                    <h3 class="text-center py-4">About me</h3>
-
-                    <p class="lead text-muted" data-aos="fade-right" data-aos-duration="3000">I like working with new tools and technologies</p>
+                <div class="col-md-6 my-4">
 
                     <div data-aos="fade-right" data-aos-duration="3000">
-                        <span class="text-muted">Name:</span>José Romero<br>
+                        <p>
+                            My name is José Romero.</br>
+                            I am a self-taught JavaScript Developer.</br>
+                            I like working with new tools and technologies</br>
+                            and I’m currently learning jest.
+                        </p>
+                    </div>
+
+                    <div data-aos="fade-right" data-aos-duration="3000">
                         <span class="text-muted">Email:</span>romerojosemanuel@hotmail.com<br>
-                        <span class="text-muted">Phone:</span><br>
                         <span class="text-muted">Country:</span>El Salvador<br>
                         <span class="text-muted">City:</span>Santiago de María<br>
                     </div>
@@ -103,9 +104,9 @@
                             Github
                         </a>
 
-                        <a class="m-2 btn btn-outline-secondary" href="#" target="_blank" >
-                            <i class="bi bi-twitter"></i>
-                            Twitter
+                        <a class="m-2 btn btn-outline-secondary" href="https://www.instagram.com/josen._.romero/" target="_blank" >
+                            <i class="bi bi-instagram"></i>
+                            Instagram
                         </a>
 
                         <a class="m-2 btn btn-outline-secondary" href="mailto:romerojosemanuel@hotmail.com">
@@ -115,6 +116,10 @@
 
                     </div>
 
+                </div>
+
+                <div class="col-md-6">
+                    <img id="myPhoto" src="images/myPhoto_20211230.png" />
                 </div>
 
             </div>
@@ -135,47 +140,141 @@
             <div class="row" data-aos="fade-left" data-aos-duration="3000">
 
                 <!-- Project one -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="http://lorempixel.com/g/400/200/" >
+                        <img class="card-img-top" src="images/dailyapp_img.png" >
                         <div class="card-body">
                             <h5 class="card-title">Daily App</h5>
-                            <p class="card-text">This is a notes web application with login system.</p>
-                            <div class="text-center">                 
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>                    
-                            </div>                       
-                        </div>                        
+                            <hr>
+                            <div class="d-flex">
+                                <div class="ms-auto">
+                                    <i class="devicon-mongodb-plain colored"></i>
+                                    <i class="devicon-express-original"></i>
+                                    <i class="devicon-react-original colored"></i>
+                                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                                    <i class="devicon-redux-original colored"></i>
+                                    <i class="devicon-bootstrap-plain colored"></i>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="card-footer">
+                            <div class="row my-2">
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4">
+                                    <p>View code: </p>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-12 col-lg-8 d-flex">
+                                    <div class="me-2">     
+                                        <a href="https://github.com/JosenRomero/DailyApp" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Frontend</a>   
+                                    </div>
+                                    <div>         
+                                        <a href="https://github.com/JosenRomero/backend-with-nodejs" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Backend</a>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <a href="https://daily-react-app.herokuapp.com/" type="button" class="btn btn-primary" target="_blank">Open Project</a>
+                            </div>                   
+                        </div>                         
                     </div>
                 </div>
 
                 <!-- Project two -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="http://lorempixel.com/g/400/200/" >
+                        <img class="card-img-top" src="images/darklydreamingapp_img.png" >
                         <div class="card-body">
                             <h5 class="card-title">Darkly Dreaming App</h5>
-                            <p class="card-text">This is a notes web application with login system.</p>
-                            <div class="text-center">                 
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>                    
-                            </div>                       
-                        </div>                        
+                            <hr>
+                            <div class="d-flex">
+                                <div class="ms-auto">
+                                    <i class="devicon-mongodb-plain colored"></i>
+                                    <i class="devicon-express-original"></i>
+                                    <i class="devicon-angularjs-plain colored"></i>
+                                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                                    <i class="devicon-bootstrap-plain colored"></i>
+                                    <i class="devicon-typescript-plain colored"></i>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="card-footer">
+                            <div class="row my-2">
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4">
+                                    <p>View code: </p>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-12 col-lg-8 d-flex">
+                                    <div class="me-2">     
+                                        <a href="https://github.com/JosenRomero/DarklyDreamingApp" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Frontend</a>   
+                                    </div>
+                                    <div>         
+                                        <a href="https://github.com/JosenRomero/simple-backend" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Backend</a>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <div class="d-grid gap-2">
+                                <a href="https://darkly-dreaming-app.vercel.app/notes" type="button" class="btn btn-primary" target="_blank">Open Project</a>
+                            </div>                   
+                        </div>                         
                     </div>
                 </div>
 
                 <!-- Project three -->
-                <div class="col-md-4">
+                <div class="col-md-6">
                     <div class="card mb-4 shadow-sm">
-                        <img class="card-img-top" src="http://lorempixel.com/g/400/200/" >
+                        <img class="card-img-top imgWidth" src="images/notesapp_img.png" >
                         <div class="card-body">
-                            <h5 class="card-title">example 3</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <div class="text-center">                 
-                                <button type="button" class="btn btn-sm btn-outline-secondary">View Project</button>                    
-                            </div>                       
-                        </div>                        
+                            <h5 class="card-title">Notes App</h5>
+                            <hr>
+                            <div class="d-flex">
+                                <div class="ms-auto">
+                                    <i class="devicon-kotlin-plain colored"></i>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="card-footer">
+                            <div class="row my-2">
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4">
+                                    <p>View code: </p>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-12 col-lg-8 d-flex">
+                                    <div class="me-2">     
+                                        <a href="https://github.com/JosenRomero/NotesApp" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Frontend</a>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- add link for Open Project-->                
+                        </div>                         
                     </div>
                 </div>
-                
+
+                <!-- Project four -->
+                <div class="col-md-6">
+                    <div class="card mb-4 shadow-sm">
+                        <img class="card-img-top imgWidth" src="images/musicplayerapp_img.png" >
+                        <div class="card-body">
+                            <h5 class="card-title">Media Player App</h5>
+                            <hr>
+                            <div class="d-flex">
+                                <div class="ms-auto">
+                                    <i class="devicon-kotlin-plain colored"></i>
+                                </div>
+                            </div>                     
+                        </div>
+                        <div class="card-footer">
+                            <div class="row my-2">
+                                <div class="col-12 col-sm-4 col-md-12 col-lg-4">
+                                    <p>View code: </p>
+                                </div>
+                                <div class="col-12 col-sm-8 col-md-12 col-lg-8 d-flex">
+                                    <div class="me-2">     
+                                        <a href="https://github.com/JosenRomero/init21MediaPlayer" type="button" class="btn btn-sm btn-outline-secondary" target="_blank">Frontend</a>   
+                                    </div>  
+                                </div>
+                            </div>
+                            <!-- add link for Open Project-->                
+                        </div>                         
+                    </div>
+                </div>
+
             </div>
             
         </div>
@@ -190,48 +289,78 @@
 
             <h3 class="text-center py-4">My Skills</h3>
 
-            <div class="row" data-aos="fade-right" data-aos-duration="3000">
+            <div class="row text-center" data-aos="fade-right" data-aos-duration="3000">
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-html5-plain colored"></i>
                     <p>HTML5</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-css3-plain colored"></i>
                     <p>CSS3</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-javascript-plain colored"></i>
                     <p>JavaScript</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-nodejs-plain-wordmark colored"></i>
                     <p>NodeJS</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-git-plain colored"></i>
                     <p>Git</p>
                 </div>
-               
-                <div class="col-xs-6 col-sm-4 col-md-3">
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-webpack-plain colored"></i>
+                    <p>Webpack</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-express-original"></i>
+                    <p>Express</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <p>mongoDB</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-react-original colored"></i>
+                    <p>React</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-redux-original colored"></i>
+                    <p>Redux</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
+                    <i class="devicon-angularjs-plain colored"></i>
+                    <p>Angular</p>
+                </div>
+
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-bootstrap-plain colored"></i>
                     <p>Bootstrap</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-kotlin-plain colored"></i>
                     <p>Kotlin</p>
                 </div>
 
-                <div class="col-xs-6 col-sm-4 col-md-3">
+                <div class="col-6 col-sm-4 col-md-3">
                     <i class="devicon-typescript-plain colored"></i>
-                    <p>Typescript</p>
+                    <p>TypeScript</p>
                 </div>
- 
+
             </div>
         </div>
         
