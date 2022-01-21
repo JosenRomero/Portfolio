@@ -27,8 +27,12 @@ a {
     align-items: center;
   }
 
-#skill i {
-    font-size: 60px;
+#skill img {
+    width: 60px;
+}
+
+.iconsDev {
+    width: 30px;
 }
 
 #projects i {
