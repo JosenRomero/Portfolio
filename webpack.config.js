@@ -6,8 +6,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
 
     entry: {
-		loadbootstrap: './src/utils/loadbootstrap.js',
-		main: './src/app.js'
+		main: './src/app.js',
+		load: './src/utils/load.js'
 	},
 
 	output: {
